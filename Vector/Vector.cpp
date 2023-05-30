@@ -25,18 +25,6 @@ double Vector::MultVect(const Vector& that) const
 	return data_x * that.data_y - data_y * that.data_x;
 }
 
-//Vector::Vector(void)
-//{
-//	data_x = 0;
-//	data_y = 0;
-//}
-
-//Vector::Vector(double x, double y)
-//{
-//	data_x = x;
-//	data_y = y;
-//}
-
 Vector::Vector() : data_x(0.), data_y(0.) {}
 
 Vector::Vector(double x, double y) : data_x(x), data_y(y) {}
